@@ -1,5 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to run this project
+Create `dev.js` file in `server/config/dev.js` with content of:
+
+```javascript
+
+module.exports = {
+  // Get DB_URI on mongo atlas, this one is just for example
+  DB_URI: 'your-mongo_connection_string', // Get it here: https://www.mongodb.com/cloud/atlas
+  // Provide unique value
+  JWT_SECRET: 'some_unique_value',
+  CLOUDINARY_NAME: 'your_cloudinary_name', 
+  CLOUDINARY_KEY: 'your_cloudinary_key', 
+  CLOUDINARY_SECRET: 'your_cloudinary_secret'
+}
+
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
